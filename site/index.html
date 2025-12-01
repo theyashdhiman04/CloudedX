@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CloudedX – Kubernetes Observability Platform</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>CloudedX</h1>
+      <p class="tagline">Kubernetes observability on AWS with Terraform, Prometheus, and Grafana.</p>
+      <p class="author">Maintained by <strong>Yash Dhiman</strong> (<code>@theyashdhiman04</code>)</p>
+      <a href="https://github.com/theyashdhiman04/CloudedX" class="button primary" target="_blank" rel="noopener noreferrer">
+        View on GitHub
+      </a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Overview</h2>
+      <p>
+        CloudedX is an Infrastructure-as-Code solution that automates the deployment of a production-ready Kubernetes
+        monitoring stack on AWS. It provisions networking, compute, and a complete Prometheus + Grafana stack for
+        end‑to‑end observability.
+      </p>
+    </section>
+
+    <section>
+      <h2>Key Features</h2>
+      <ul>
+        <li>Automated AWS infrastructure using Terraform</li>
+        <li>Self-managed Kubernetes cluster (control plane + worker nodes)</li>
+        <li>Integrated Prometheus and Grafana monitoring stack</li>
+        <li>Modular network and compute Terraform modules</li>
+        <li>Sample application to validate the cluster</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Quick Start</h2>
+      <ol>
+        <li>Clone the repository from GitHub.</li>
+        <li>Configure your AWS credentials and SSH key pair.</li>
+        <li>Run <code>terraform init</code>, <code>terraform plan</code>, and <code>terraform apply</code>.</li>
+        <li>Follow <code>DEPLOYMENT.md</code> to finish Kubernetes and monitoring setup.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Technology Stack</h2>
+      <p>CloudedX is built using:</p>
+      <ul>
+        <li>Terraform for Infrastructure-as-Code</li>
+        <li>AWS for compute and networking</li>
+        <li>Kubernetes for orchestration</li>
+        <li>Prometheus and Grafana for metrics and visualization</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; CloudedX – Maintained by <strong>Yash Dhiman</strong>.</p>
+    </div>
+  </footer>
+</body>
+</html>
+

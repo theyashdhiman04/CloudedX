@@ -2,7 +2,7 @@
 
 **A comprehensive Kubernetes observability platform built with Terraform, Prometheus, and Grafana**
 
-**Author:** theyashdhiman04
+**Author:** Yash Dhiman (`theyashdhiman04`)
 
 ## Overview
 
@@ -219,7 +219,7 @@ This project is open source and available under the MIT License.
 
 For issues, questions, or contributions:
 - Open an issue on GitHub
-- Contact: theyashdhiman04
+- GitHub: `@theyashdhiman04`
 
 ## Acknowledgments
 
@@ -232,4 +232,4 @@ CloudedX leverages the following open-source technologies:
 
 ---
 
-**Built with ❤️ by theyashdhiman04**
+**Maintained by Yash Dhiman**
