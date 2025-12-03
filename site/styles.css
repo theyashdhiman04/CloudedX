@@ -25,7 +25,7 @@ body {
 }
 
 .hero h1 {
-  font-size: clamp(2.25rem, 4vw, 3rem);
+  font-size: clamp(2.25rem, 6vw, 3.25rem);
   margin-bottom: 0.5rem;
 }
 
@@ -124,16 +124,24 @@ code {
 
 @media (max-width: 640px) {
   .hero {
-    padding-top: 2.5rem;
-    padding-bottom: 2rem;
+    padding-top: 2.25rem;
+    padding-bottom: 1.75rem;
   }
 
   .container {
-    padding-inline: 1.25rem;
+    padding-inline: 1.1rem;
   }
 
   main section {
     padding-top: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  .tagline {
+    font-size: 0.98rem;
   }
 }
 
