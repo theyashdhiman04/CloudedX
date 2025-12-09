@@ -6,6 +6,7 @@
   <title>CloudedX – Kubernetes Observability Platform</title>
   <link rel="stylesheet" href="styles.css" />
   <script src="app.js" defer></script>
+  <script src="payments.js" defer></script>
 </head>
 <body>
   <header class="hero">
@@ -79,6 +80,16 @@
         <li>Familiarity with Kubernetes operations</li>
         <li>A focus on observability, reliability, and cost control</li>
       </ul>
+    </section>
+
+    <section>
+      <h2>Mock Checkout</h2>
+      <p>
+        To demonstrate how CloudedX could be extended to commercial use cases, the demo page includes a mock checkout
+        flow that simulates talking to a payment gateway (no real payments are processed).
+      </p>
+      <button class="button primary" type="button" data-checkout-button>Run mock checkout</button>
+      <p data-checkout-status></p>
     </section>
   </main>
 
