@@ -6,7 +6,7 @@
 
 ## Overview
 
-CloudedX is an Infrastructure-as-Code solution that automates the deployment of a production-ready Kubernetes monitoring stack on AWS. The platform combines Terraform for infrastructure provisioning, Kubernetes for orchestration, and Prometheus + Grafana for comprehensive observability.
+CloudedX is an Infrastructure-as-Code solution that automates the deployment of a production-ready Kubernetes monitoring stack on AWS. It provisions networking, compute resources, and a complete Prometheus + Grafana stack to deliver end-to-end observability for Kubernetes workloads.
 
 ## Features
 
