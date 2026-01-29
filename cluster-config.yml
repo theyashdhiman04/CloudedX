@@ -1,0 +1,12 @@
+# CloudedX Kubernetes Cluster Configuration
+# Author: theyashdhiman04
+# Description: kubeadm configuration for initializing the CloudedX Kubernetes cluster
+
+apiVersion: kubeadm.k8s.io/v1beta3
+kind: ClusterConfiguration
+kubernetesVersion: v1.32.0
+networking:
+  podSubnet: 192.168.0.0/16
+apiServer:
+  extraArgs:
+    service-node-port-range: 1024-1233

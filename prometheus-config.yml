@@ -1,0 +1,10 @@
+# CloudedX Prometheus Configuration
+# Author: theyashdhiman04
+# Description: Helm values for Prometheus deployment
+
+server:
+  persistentVolume:
+    enabled: false
+alertmanager:
+  persistentVolume:
+    enabled: false

@@ -1,0 +1,9 @@
+# CloudedX Grafana Configuration
+# Author: theyashdhiman04
+# Description: Helm values for Grafana deployment
+
+adminUser: admin
+adminPassword: CloudedX2024!
+service:
+  type: NodePort
+  port: 3000
